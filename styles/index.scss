@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Acme;
+    src: url("../fonts/Acme/Acme-Regular.ttf")
+}
+@font-face {
+    font-family: Dosis;
+    src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf");
+}
+
+$color : green;
+
+div {
+    p {
+        font-size: 50px;
+        color: $color;
+    }
+    .div {
+        .div {
+            .button {
+                font-size: large;
+            }
+        }
+    }
+}
