@@ -1,9 +1,59 @@
-div p {
-  font-size: 50px;
-  color: green;
+@font-face {
+  font-family: Acme;
+  src: url("../fonts/Acme/Acme-Regular.ttf");
 }
 
-div .div .div .button {
-  font-size: large;
+@font-face {
+  font-family: Dosis;
+  src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf");
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.first {
+  height: 100vh;
+  background-blend-mode: lighten;
+  background: rgba(98, 215, 238, 0.7) url("../pictures/circle/circle-blues.png") repeat;
+}
+
+.first .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.first .nav .nav--title {
+  font-family: Acme, cursive;
+  margin-left: 1rem;
+  color: white;
+}
+
+.first .nav .nav--list {
+  list-style-type: none;
+}
+
+.first .nav .nav--list .nav--item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.first .nav .nav--list .nav--item .nav--link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.first .nav .nav--list .nav--item .nav--link:hover {
+  text-decoration: none;
 }
 /*# sourceMappingURL=index.css.map */
