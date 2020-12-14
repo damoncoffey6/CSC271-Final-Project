@@ -6,18 +6,45 @@
     font-family: Dosis;
     src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf");
 }
+@mixin Dosis {
+    font-family: Dosis, sans-serif;
+}
+@mixin Acme {
+    font-family: Acme, cursive;
+}
+$light-blue: rgba(98, 215, 238, .70);
+a:hover {
+    opacity: 0.6;
+}
 
-$color : green;
-
-div {
-    p {
-        font-size: 50px;
-        color: $color;
-    }
-    .div {
-        .div {
-            .button {
-                font-size: large;
+.first {
+    height: 100vh;
+    background-blend-mode: lighten;
+    background: $light-blue url("../pictures/circle/circle-blues.png") repeat;
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        .nav--title {
+            @include Acme();
+            margin-left: 1rem;
+            color: white;
+        }
+        .nav--list {
+            list-style-type: none;
+            .nav--item {
+                display: inline-block;
+                margin-right: 2rem;
+                .nav--link {
+                    color: white;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    &:hover {
+                        text-decoration: none;
+                        
+                    }
+                }
             }
         }
     }
