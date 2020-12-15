@@ -57,3 +57,34 @@ a:hover {
   text-decoration: none;
 }
 /*# sourceMappingURL=index.css.map */
+
+.form{
+  font-size: 25px;
+  font-family: "Dosis";
+  float: right;
+  margin: 0 1.5%;
+  width: 40%;
+  background-color: #61b4cf;
+  padding: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 3%;
+  line-height: 1.5em;
+}
+
+#info{
+  font-size: 25px;
+  font-family: "Dosis";
+  float: left;
+  margin: 0 1.5%;
+  width: 40%;
+  background-color: #61b4cf;
+  padding: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 3%;
+  line-height: 1.5em;
+
+}
