@@ -18,7 +18,7 @@ a:hover {
 }
 
 .first {
-    height: 100vh;
+    height: 110vh;
     background-blend-mode: lighten;
     background: $light-blue url("../pictures/circle/circle-blues.png") repeat;
     .nav {
@@ -26,6 +26,7 @@ a:hover {
         justify-content: space-between;
         align-items: flex-end;
         flex-wrap: wrap;
+        padding: 1.75rem;
         .nav--title {
             @include Acme();
             margin-left: 1rem;
@@ -49,7 +50,12 @@ a:hover {
         }
     }
 }
-
+.center {
+    margin: 0 auto;
+}
+img.center {
+    border: #efefef 2px dotted;
+}
 
 .form{
     font-size: 25px;

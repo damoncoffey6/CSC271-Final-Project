@@ -13,7 +13,7 @@ a:hover {
 }
 
 .first {
-  height: 100vh;
+  height: 110vh;
   background-blend-mode: lighten;
   background: rgba(98, 215, 238, 0.7) url("../pictures/circle/circle-blues.png") repeat;
 }
@@ -30,6 +30,7 @@ a:hover {
           align-items: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 1.75rem;
 }
 
 .first .nav .nav--title {
@@ -55,6 +56,14 @@ a:hover {
 
 .first .nav .nav--list .nav--item .nav--link:hover {
   text-decoration: none;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+img.center {
+  border: #efefef 2px dotted;
 }
 
 .form {
