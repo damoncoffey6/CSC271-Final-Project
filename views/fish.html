@@ -13,27 +13,48 @@
             <nav class="nav">
                 <a href="./index.html"><h1 class="nav--title">Fish R' US</h1></a>
                 <ul class="nav--list">
-                    <li class="nav--item"><a href="#" class="nav--link">Fish</a></li>
+                    <li class="nav--item"><a href="./fish.html" class="nav--link">Fish</a></li>
                     <li class="nav--item"><a href="./invertebrates.html" class="nav--link">Marine Invertebrates</a></li>
-                    <li class="nav--item"><a href="#" class="nav--link">Marine Mammals</a></li>
+                    <li class="nav--item"><a href="./mammals.html" class="nav--link">Marine Mammals</a></li>
                 </ul>
             </nav>
             <div class="display">
-
                 <div class = "display-info">
-
+                    <h2 class="info-name">Thresher Shark</h2>
+                    <p class="info-text">Thresher sharks are large lamniform sharks of the family Alopiidae found in all temperate and tropical oceans of the world; the family contains three extant species, all within the genus Alopias.
+                    All three thresher shark species have been listed as vulnerable to extinction by the World Conservation Union since 2007. All are popular sport fish. In addition, they are hunted for their meat, livers (for shark liver oil), skin (for leather), and fins for use in shark-fin soup.</p>
+                    <h2 class="info-nextstep">Find Out More</h2>
+                    <ul class="info-list">
+                        <li class="info-item">
+                            <!-- Always going to be where we obtained the photo -->
+                            <p>Photo by <a href="https://www.elasmodiver.com/Thresher_Sharks_of_Magical_Malapascua.html">Elasmodiver</a></p>
+                        </li>
+                        <li class="info-item">
+                            <!-- Always going to be where we obtained the information -->
+                            <a href="https://en.wikipedia.org/wiki/Thresher_shark" class="info-link">Information from Wikipedia</a>
+                        </li>
+                    </ul>
                 </div>
-
-                <img id = "display-picture" src="pictures/octopus.jpg" alt="octopus">
+                <!-- Use the 350w version for the display -->
+                <img id = "display-picture" src="../pictures/shark-350w.jpg" alt="thresher shark swimming">
 
             </div>
         </div>
+        <div class="select">
+            <div id="shark" class="select-card" onclick="button(event)">
+                <!-- Use the 150 px wide version for the cards -->
+                <img src="../pictures/shark-150w.jpg" alt="thresher shark swimming" class="card-picture">
+                <h2  class="card-name"> Thresher Shark</h2>
+            </div>
+            <div id="mandarinfish" class="select-card" onclick="button(event)">
+                <img src="../pictures/mandarinfish-150w.jpg" alt="2 mandarin fish chilling" class="card-picture">
+                <h2  class="card-name"> Mandarin Fish</h2>
+            </div>
+            <div id="stingray" class="select-card" onclick="button(event)">
+                <img src="../pictures/stringray-150w.jpg" alt="A cownose stingray swimming gracefully" class="card-picture">
+                <h2  class="card-name">Cownose Stingray</h2>
+            </div>
 
-        <div id="shark" type = "button" onclick="button(event)">
-            
-        
-        
-        
         </div>
 
         

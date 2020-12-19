@@ -1,19 +1,4 @@
-const fish = [{
-    name: "shark",
-    picture: "../pictures/shark.jpg",
-    info: "<h2> shark </h2> <p> This is a shark </p>"
-},
-{
-    name: "mandarin-fish",
-    picture: "../pictures/mandarinfish.jpg",
-    info: "<h2> mandarin fish </h2> <p> This is a mandarin fish </p>" 
-}
-
-
-
-
-
-,
+const fish = [
 {
     name: "crab",
     picture: "../pictures/crab-350w.jpg",
@@ -39,7 +24,7 @@ const fish = [{
     <h2 class="info-nextstep">Find Out More</h2>
     <ul class="info-list">
         <li class="info-item">
-        <span>Photo by <a href="https://unsplash.com/@catou9?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">viatour cathy</a> on <a href="https://unsplash.com/s/photos/octopus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        <span>Photo by <a href="https://unsplash.com/@catou9?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Viatour Cathy</a> on <a href="https://unsplash.com/s/photos/octopus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
         </li>
         <li class="info-item">
             <a href="https://en.wikipedia.org/wiki/Dungeness_crab" class="info-link">Information from Wikipedia</a>
@@ -61,7 +46,125 @@ const fish = [{
             <a href="https://en.wikipedia.org/wiki/Pisaster_giganteus" class="info-link">Information from Wikipedia</a>
         </li>
     </ul>`
-}]
+}
+,
+{
+    name: "shark",
+    picture: "../pictures/shark-350w.jpg",
+    altText: "thresher shark swimming",
+    info: `<h2 class="info-name">Thresher Shark</h2>
+    <p class="info-text">Thresher sharks are large lamniform sharks of the family Alopiidae found in all temperate and tropical oceans of the world; the family contains three extant species, all within the genus Alopias.
+                    All three thresher shark species have been listed as vulnerable to extinction by the World Conservation Union since 2007. All are popular sport fish. In addition, they are hunted for their meat, livers (for shark liver oil), skin (for leather), and fins for use in shark-fin soup.</p>
+    <h2 class="info-nextstep">Find Out More</h2>
+    <ul class="info-list">
+        <li class="info-item">
+            <!-- Always going to be where we obtained the photo -->
+            <p>Photo by <a href="https://www.elasmodiver.com/Thresher_Sharks_of_Magical_Malapascua.html">Elasmodiver</a></p>
+        </li>
+        <li class="info-item">
+            <!-- Always going to be where we obtained the information -->
+            <a href="https://en.wikipedia.org/wiki/Thresher_shark" class="info-link">Information from Wikipedia</a>
+        </li>
+    </ul>`
+}
+,
+{
+    name: "stingray",
+    picture: "../pictures/stringray-350w.jpg",
+    altText: "A cownose stingray swimming gracefully",
+    info: `<h2 class="info-name">Cownose Stingray</h2>
+    <p class="info-text">The cownose ray (Rhinoptera bonasus) is a species of eagle ray found throughout a large part of the western Atlantic and Caribbean, from New England, United States to southern Brazil (East Atlantic populations are now generally considered a separate species, R. marginata). Cownose rays grow rapidly, and male rays often reach about 35 inches (89 cm) in width and weigh 26 pounds (12 kg). Females typically reach 28 inches (71 cm) in width and weigh 36 pounds (16 kg). These rays also belong to the order Myliobatiformes, a group that is shared by bat rays, manta rays, and eagle rays.</p>
+    <h2 class="info-nextstep">Find Out More</h2>
+    <ul class="info-list">
+        <li class="info-item">
+            <!-- Always going to be where we obtained the photo -->
+            <span>Photo by <a href="https://unsplash.com/@catou9?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">David Clode</a> on <a href="https://unsplash.com/s/photos/octopus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        </li>
+        <li class="info-item">
+            <!-- Always going to be where we obtained the information -->
+            <a href="https://en.wikipedia.org/wiki/Cownose_ray" class="info-link">Information from Wikipedia</a>
+        </li>
+    </ul>`
+}
+,
+{
+    name: "mandarinfish",
+    picture: "../pictures/mandarinfish-350w.jpg",
+    altText: "2 mandarin fish chilling",
+    info: `<h2 class="info-name">Mandarin Fish</h2>
+    <p class="info-text">Synchiropus splendidus, the mandarinfish or mandarin dragonet, is a small, brightly colored member of the dragonet family, which is popular in the saltwater aquarium trade. The mandarinfish is native to the Pacific, ranging approximately from the Ryukyu Islands south to Australia. It can usually be found in some of the warmer waters.</p>
+    <h2 class="info-nextstep">Find Out More</h2>
+    <ul class="info-list">
+        <li class="info-item">
+            <!-- Always going to be where we obtained the photo -->
+            <p>Photo by <a href="https://www.elasmodiver.com/Thresher_Sharks_of_Magical_Malapascua.html">Elasmodiver</a></p>
+        </li>
+        <li class="info-item">
+            <!-- Always going to be where we obtained the information -->
+            <a href="https://en.wikipedia.org/wiki/Cownose_ray" class="info-link">Information from Wikipedia</a>
+        </li>
+    </ul>`  
+}
+,
+{
+    name: "dolphin",
+    picture: "../pictures/dolphin-350w.jpg",
+    altText: "a happy dolphin looking at something",
+    info: `<h2 class="info-name">Bottlenose Dolphin</h2>
+    <p class="info-text">Bottlenose dolphins, the genus Tursiops, are the most common members of the family Delphinidae, the family of oceanic dolphin. Molecular studies show the genus contains three species: the common bottlenose dolphin (Tursiops truncatus), the Indo-Pacific bottlenose dolphin (Tursiops aduncus), and the Burrunan dolphin (Tursiops australis). Bottlenose dolphins inhabit warm and temperate seas worldwide, being found everywhere except for the Arctic and Antarctic Circle regions. Their name derives from the Latin tursio (dolphin) and truncatus for their characteristic truncated teeth.</p>
+    <h2 class="info-nextstep">Find Out More</h2>
+    <ul class="info-list">
+        <li class="info-item">
+            <!-- Always going to be where we obtained the photo -->
+            <span>Photo by <a href="https://unsplash.com/@aberkecz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ádám Berkecz</a> on <a href="https://unsplash.com/s/photos/dolphin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        </li>
+        <li class="info-item">
+            <!-- Always going to be where we obtained the information -->
+            <a href="https://en.wikipedia.org/wiki/Bottlenose_dolphin" class="info-link">Information from Wikipedia</a>
+        </li>
+    </ul>` 
+}
+,
+{
+    name: "blue-whale",
+    picture: "../pictures/blue-whale-350w.jpg",
+    altText: "a blue whale breaching the surface",
+    info: `<h2 class="info-name">Blue Whale</h2>
+    <p class="info-text">The blue whale (Balaenoptera musculus) is a marine mammal belonging to the baleen whale suborder Mysticeti. Reaching a maximum confirmed length of 29.9 meters (98 feet) and weight of 173 tonnes (190 tons), it is the largest animal known to have ever existed. The blue whale’s long and slender body can be various shades of grayish-blue dorsally and somewhat lighter underneath.</p>
+    <h2 class="info-nextstep">Find Out More</h2>
+    <ul class="info-list">
+        <li class="info-item">
+            <!-- Always going to be where we obtained the photo -->
+            <span>Photo by <a href="https://unsplash.com/@toddcravens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Todd Cravens</a> on <a href="https://unsplash.com/s/photos/whale?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        </li>
+        <li class="info-item">
+            <!-- Always going to be where we obtained the information -->
+            <a href="https://en.wikipedia.org/wiki/Blue_whale" class="info-link">Information from Wikipedia</a>
+        </li>
+    </ul>` 
+}
+,
+{
+    name: "sealion",
+    picture: "../pictures/sea-lion-350w.jpg",
+    altText: "a colony of sea lions resting on the rocks",
+    info: `<h2 class="info-name">Sea Lion</h2>
+    <p class="info-text">Sea lions are pinnipeds characterized by external ear flaps, long foreflippers, the ability to walk on all fours, short, thick hair, and a big chest and belly. Together with the fur seals, they comprise the family Otariidae, eared seals, which contains six extant and one extinct species (the Japanese sea lion) in five genera. Their range extends from the subarctic to tropical waters of the global ocean in both the Northern and Southern Hemispheres, with the notable exception of the northern Atlantic Ocean.</p>
+    <h2 class="info-nextstep">Find Out More</h2>
+    <ul class="info-list">
+        <li class="info-item">
+            <!-- Always going to be where we obtained the photo -->
+            <span>Photo by <a href="https://unsplash.com/@sergiogonzalez2024?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sergio Gonzalez</a> on <a href="https://unsplash.com/s/photos/sea-lion?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        </li>
+        <li class="info-item">
+            <!-- Always going to be where we obtained the information -->
+            <a href="https://en.wikipedia.org/wiki/Sea_lion" class="info-link">Information from Wikipedia</a>
+        </li>
+    </ul>`
+}
+
+
+]
 
 
 
