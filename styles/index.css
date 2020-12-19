@@ -58,6 +58,39 @@ a:hover {
   text-decoration: none;
 }
 
+.first .display {
+  background-color: white;
+  max-width: 900px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.first .display .display-info {
+  font-family: Dosis, sans-serif;
+  max-width: 60ch;
+  padding: 1rem;
+  line-height: 150%;
+}
+
+.first .display .display-info h2 {
+  font-family: Acme, cursive;
+  color: #15F6DE;
+  font-weight: bold;
+}
+
 .center {
   margin: 0 auto;
 }

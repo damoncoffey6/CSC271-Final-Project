@@ -13,6 +13,8 @@
     font-family: Acme, cursive;
 }
 $light-blue: rgba(98, 215, 238, .70);
+$teal-ish: #15F6DE;
+
 a:hover {
     opacity: 0.6;
 }
@@ -48,6 +50,30 @@ a:hover {
                 }
             }
         }
+    }
+    .display {
+        background-color: white;
+        max-width: 900px;
+        min-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .display-info {
+            @include Dosis();
+            max-width: 60ch;
+            padding: 1rem;
+            line-height: 150%;
+            h2 {
+                @include Acme();
+                color: $teal-ish;
+                font-weight: bold;
+            }
+
+        }
+
     }
 }
 .center {
@@ -96,6 +122,3 @@ img.center {
 
 }
 
-.animal{
-    
-}
