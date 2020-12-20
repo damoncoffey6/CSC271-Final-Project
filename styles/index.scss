@@ -90,9 +90,6 @@ img.center {
 .form{
     font-size: 25px;
     font-family: "Dosis";
-    float: right;
-    margin: 0 1.5%;
-    width: 40%;
     background-color: #61b4cf;
     padding: 20px;
     border-color: black;
@@ -105,9 +102,6 @@ img.center {
   #info{
     font-size: 25px;
     font-family: "Dosis";
-    float: left;
-    margin: 0 1.5%;
-    width: 40%;
     background-color: #61b4cf;
     padding: 20px;
     border-color: black;
@@ -115,16 +109,12 @@ img.center {
     border-style: solid;
     margin-top: 3%;
     line-height: 1.5em;
+    max-width: 450px;
   
   }
 
 
 .footer{
-    // The footer was not showing up because it was behin
-    // the about us info. Floats take the element away from the
-    // normal flow of the document. So, position relative was neccesary.
-    position: relative;
-    top: 1000px;
     background-color:#61b4cf;
 }
 
@@ -147,4 +137,11 @@ img.center {
             color: $grey;
         }
     }
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
