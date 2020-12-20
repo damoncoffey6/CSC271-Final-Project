@@ -6,15 +6,21 @@
     font-family: Dosis;
     src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf");
 }
+// Functions for fonts make it so that the second font does
+// not to be re-declared for every block of text
 @mixin Dosis {
     font-family: Dosis, sans-serif;
 }
 @mixin Acme {
     font-family: Acme, cursive;
 }
+// Saving colors as variables so that we don't need to keep copy and 
+// pasting hex codes
 $light-blue: rgba(98, 215, 238, .70);
 $teal-ish: #15F6DE;
 $grey : #3b3b3b;
+
+
 a:hover {
     opacity: 0.6;
 }
@@ -114,10 +120,12 @@ img.center {
 
 
 .footer{
+    // The footer was not showing up because it was behin
+    // the about us info. Floats take the element away from the
+    // normal flow of the document. So, position relative was neccesary.
     position: relative;
-    top:1000px;
+    top: 1000px;
     background-color:#61b4cf;
-
 }
 
 .select {
@@ -126,6 +134,7 @@ img.center {
     justify-content: space-evenly;
     flex-wrap: wrap;
     .select-card {
+        // Guides the user to click on a card
         cursor: pointer;
         max-width: 150px;
         height: 240px;

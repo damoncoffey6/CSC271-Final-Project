@@ -168,7 +168,8 @@ const fish = [
 
 
 
-
+// Finds the information through linear search of an array of 
+// objects
 function button(event)
 { 
     /*
