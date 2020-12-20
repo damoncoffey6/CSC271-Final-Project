@@ -1,3 +1,6 @@
+
+// Global information about animals
+// Scroll down for function implementation
 const fish = [
 {
     name: "crab",
