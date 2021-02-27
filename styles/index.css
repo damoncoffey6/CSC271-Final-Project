@@ -155,6 +155,10 @@ img.center {
   color: #3b3b3b;
 }
 
+.carousel {
+  max-width: 1500px;
+}
+
 .second {
   display: -webkit-box;
   display: -ms-flexbox;
